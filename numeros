@@ -1,13 +1,11 @@
-$numero = 10;
+<?php
 
-console.log("Números del 1 al " + numero + ":");
+$numero1 = 10;
+$numero2 = 5;
 
-for ( i = 1; i <= numero; i++) {
-    console.log(i);
-}
+echo "Suma: " . ($numero1 + $numero2) . "\n";
+echo "Resta: " . ($numero1 - $numero2) . "\n";
+echo "Multiplicación: " . ($numero1 * $numero2) . "\n";
+echo "División: " . ($numero1 / $numero2) . "\n";
 
-console.log("Números invertidos:");
-
-for ( i = numero; i >= 1; i--) {
-    console.log(i);
-}
+?>
