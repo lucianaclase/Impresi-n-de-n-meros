@@ -1,0 +1,13 @@
+$numero = 10;
+
+console.log("Números del 1 al " + numero + ":");
+
+for ( i = 1; i <= numero; i++) {
+    console.log(i);
+}
+
+console.log("Números invertidos:");
+
+for ( i = numero; i >= 1; i--) {
+    console.log(i);
+}
